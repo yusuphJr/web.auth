@@ -92,7 +92,7 @@
 
   <script src="/socket.io/socket.io.js"></script>
   <script>
-    const socket = io();
+    const socket = io('http://your-bot-backend-host:3000');
     const qrDiv = document.getElementById('qr');
     const statusDiv = document.getElementById('status');
     const input = document.getElementById('commandInput');
